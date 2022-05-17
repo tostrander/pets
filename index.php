@@ -8,5 +8,9 @@ ini_set('display_errors', TRUE);
 require ('pet.php');
 
 //Java version:  Pet pet = new Pet(); pet.eat();
-$pet = new Pet();
+$pet = new Pet("Rover", "brown");
+//$pet2 = new Pet();
+$pet3 = new Pet("pink");
 $pet->eat();
+//$pet2->eat();
+$pet3->eat();
